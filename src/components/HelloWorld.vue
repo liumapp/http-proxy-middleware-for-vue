@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import $ from '@/../static/js/jquery'
+
 export default {
   name: 'HelloWorld',
   data: function () {
@@ -25,7 +27,7 @@ export default {
     getHello: function getHello () {
       return $.ajax({
         type: 'GET',
-        url: '/api/v1/',
+        url: '/api/v1/index/hello',
         dataType: 'json',
         success: function (data) {
           console.log(data)
