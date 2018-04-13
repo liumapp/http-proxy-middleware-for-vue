@@ -25,12 +25,14 @@ export default {
     },
 
     getHello: function getHello () {
+      var vue = this;
       return $.ajax({
         type: 'GET',
         url: '/api/v1/index/hello',
         dataType: 'json',
         success: function (data) {
           console.log(data)
+          vue.msg = data
         }
       });
     }
