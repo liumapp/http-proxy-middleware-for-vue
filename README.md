@@ -19,3 +19,18 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## how to use
+
+### using default proxyTable
+
+* npm run dev
+
+* npm run remote
+
+If you push the project into nginx or apache , you still need config proxy of nginx (or apache).
+
+### using http-proxy-middleware
+
+
+
