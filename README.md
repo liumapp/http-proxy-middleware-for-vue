@@ -32,5 +32,7 @@ If you push the project into nginx or apache , you still need config proxy of ng
 
 ### using http-proxy-middleware
 
+For more details , plz read [http-proxy-middleware on Github](https://github.com/chimurai/http-proxy-middleware)
+
 
 
